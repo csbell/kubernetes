@@ -12,6 +12,7 @@ go_library(
     srcs = [
         "adapter.go",
         "configmap.go",
+        "daemonset.go",
         "registry.go",
         "secret.go",
     ],

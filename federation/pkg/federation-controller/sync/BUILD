@@ -53,6 +53,7 @@ go_test(
     name = "go_default_test",
     srcs = [
         "configmap_controller_test.go",
+        "daemonset_controller_test.go",
         "secret_controller_test.go",
     ],
     library = ":go_default_library",
